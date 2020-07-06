@@ -3,7 +3,7 @@
 # 會用到tensorflow及keras，還有matplotlib！
 # 有借別人的windows機器跑anaconda跑過此程式碼完全沒問題，但我的macOS下跑的話會在最後一行imshow那裡crash掉，一直找不到原因為何！
 # 我的機器：
-16G RAM
+macbook pro 2015mid + 16G RAM
 macOS: 10.14.6
 Anaconda Navigator: 1.9.12
 Environments: 新建
