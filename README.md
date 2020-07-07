@@ -1,10 +1,10 @@
 # 【已解決】
 <p>【解決方法一】在程式一開始時加入兩行指令：<br>
-import os <br>
-os.environ['KMP_DUPLICATE_LIB_OK']='True'<br>
+<pre>import os
+os.environ['KMP_DUPLICATE_LIB_OK']='True'</pre>
 參考網頁：https://www.kaggle.com/product-feedback/41221
 <p>【解決方法二】直接先 install nokml, 一勞永逸<br>
-conda install nokml<br>
+<pre>conda install nokml</pre>
 參考網頁：https://github.com/bioconda/bioconda-recipes/issues/21050
 
 # 底下為原問題
