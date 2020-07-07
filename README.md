@@ -1,3 +1,9 @@
+# 【已解決】
+# 【解決方法一】在程式一開始時加入兩行指令：
+import os
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
+# 【解決方法二】直接先 install nokml, 一勞永逸
+conda install nokml
 # python_error_in_jupyterlab_of_macOS
 # 想麻煩有在macOS裡使用anaconda的朋友幫忙測試底下python程式碼能不能正常執行？！
 # 會用到tensorflow及keras，還有matplotlib！
