@@ -4,7 +4,7 @@
     <pre>import os
     os.environ['KMP_DUPLICATE_LIB_OK']='True'</pre>
     參考網頁：https://www.kaggle.com/product-feedback/41221
-  </li>
+  </li><p>
   <li>【解決方法二】直接先 install nokml, 一勞永逸<br>
     <pre>conda install nokml</pre>
     參考網頁：https://github.com/bioconda/bioconda-recipes/issues/21050
