@@ -1,11 +1,15 @@
 # 【已解決】
-<p>【解決方法一】在程式一開始時加入兩行指令：<br>
-<pre>import os
-os.environ['KMP_DUPLICATE_LIB_OK']='True'</pre>
-參考網頁：https://www.kaggle.com/product-feedback/41221
-<p>【解決方法二】直接先 install nokml, 一勞永逸<br>
-<pre>conda install nokml</pre>
-參考網頁：https://github.com/bioconda/bioconda-recipes/issues/21050
+<ul>
+  <li>【解決方法一】在程式一開始時加入兩行指令：<br>
+    <pre>import os
+    os.environ['KMP_DUPLICATE_LIB_OK']='True'</pre>
+    參考網頁：https://www.kaggle.com/product-feedback/41221
+  </li>
+  <li>【解決方法二】直接先 install nokml, 一勞永逸<br>
+    <pre>conda install nokml</pre>
+    參考網頁：https://github.com/bioconda/bioconda-recipes/issues/21050
+  </li>
+</ul>
 
 # 底下為原問題
 python_error_in_jupyterlab_of_macOS <br>
