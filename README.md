@@ -1,8 +1,8 @@
 # 【已解決】
-# 【解決方法一】在程式一開始時加入兩行指令：
+<p>【解決方法一】在程式一開始時加入兩行指令：
 import os <br>
 os.environ['KMP_DUPLICATE_LIB_OK']='True'
-# 【解決方法二】直接先 install nokml, 一勞永逸
+<p>【解決方法二】直接先 install nokml, 一勞永逸
 conda install nokml
 
 # 底下為原問題
